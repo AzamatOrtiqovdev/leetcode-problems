@@ -1,3 +1,12 @@
+"""
+19/11/2022
+
+problem: Two Sum
+
+author: Azamat Ortiqov
+"""
+
+
 def two_sum(nums, target):
 
     numbers = dict()
@@ -13,5 +22,5 @@ def two_sum(nums, target):
     
     return []
 
-a = two_sum([2,2], 4)
+a = two_sum([1,2,8,6,9,10], 15)
 print(a)
